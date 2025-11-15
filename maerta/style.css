@@ -197,7 +197,43 @@
       text-align: center;
       font-weight: 600;
     }
+ /* NEW */
+    .earnings-disclaimer {
+      background: #fff8e6;
+      border: 1px solid #ffd54f;
+      border-radius: 8px;
+      padding: 12px;
+      margin: 16px 0;
+      text-align: center;
+    }
     
+    .earnings-disclaimer small {
+      color: #e65100;
+      font-size: 0.8em;
+    }
+    
+    .earnings-badge {
+      background: linear-gradient(135deg, #ff6b35, #f7931e);
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 0.9em;
+      display: inline-block;
+      margin-bottom: 16px;
+    }
+    
+    .earnings-note {
+      margin: 12px 0;
+      text-align: center;
+    }
+    
+    .earnings-note small {
+      color: #666;
+      font-style: italic;
+    }
+
+
     /* Urgency styles */
     .urgency-banner {
       background: linear-gradient(90deg, var(--red), var(--orange));
